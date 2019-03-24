@@ -1,0 +1,59 @@
+.text {
+    background-image: url(../../assets/photo-1518463892881-d587bf2c296a.jpeg);
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;    
+    position: relative;
+}
+
+.institutions .content {
+    text-align: center;
+    width: 50%;
+    display: grid;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    color: #FFFFFF;
+    padding: 0 5%
+}
+
+.content button {
+    width: 30%;
+    padding: 3%;
+    margin: 4% 30% 4% 35%;
+    background-color: #4B93DF;
+    color: #FFFFFF;
+    border: none;
+}
+
+.institutions {
+    position: relative;
+}
+
+.institutions h1 {
+    float: left;
+}
+
+.institutions li {
+    display: inline-block;
+    padding: 0 5%;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.text:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right,#879A9E,#4AC2DD);
+    opacity: 0.5; 
+}
