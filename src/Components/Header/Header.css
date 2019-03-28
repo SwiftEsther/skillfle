@@ -52,7 +52,8 @@
 .landing_page {
     top: 0;
     background-image: url(../../assets/photo-1509869175650-a1d97972541a.jpeg);
-    height: 600px;
+    height: 100vh;
+    width: 100%;
     background-position: 100%;
     background-size: cover;
 }
@@ -70,7 +71,7 @@
 }
 
 .hero-text-box button {
-    padding: 20px 60px;
+    padding: 5% 15%;
     margin-top: 32px;
     background-color: #4B93DF;
     color: #FFFFFF;
@@ -86,17 +87,5 @@
 
     .header {
         width: 100%;
-    }
-
-    .landing_page { 
-        background-image: url(../../assets/photo-1509869175650-a1d97972541a.jpeg);
-        height: 100vh;
-        width: 100%;
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .header-right {
-      float: none;
     }
 }

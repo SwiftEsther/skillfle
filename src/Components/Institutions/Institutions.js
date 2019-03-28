@@ -49,8 +49,8 @@ const Institutions = () => (
                 </li>
             </ul>
         
-            <div className="text">
-                <div className="content">
+            <div className="text container">
+                <div className="content row">
                     <h1>New Skillfle Global Skills index</h1>
                     <p>See new skills companies and recruiters require of you to get hired ahead of other participants &nbsp;</p>
                     <button>Learn more</button>

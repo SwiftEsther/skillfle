@@ -12,7 +12,7 @@
 .institutions .content {
     text-align: center;
     width: 50%;
-    display: grid;
+    display: inline-block;
     position: absolute;
     right: 0;
     top: 5%;
@@ -31,10 +31,6 @@
 
 .institutions {
     position: relative;
-}
-
-.institutions h1 {
-    float: left;
 }
 
 .institutions li {
