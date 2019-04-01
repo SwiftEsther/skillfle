@@ -1,5 +1,5 @@
 .text {
-    background-image: url(../../assets/photo-1518463892881-d587bf2c296a.jpeg);
+    background-image: url(../../assets/woman.jpeg);
     width: auto;
     background-attachment: fixed;
     background-position: center;
@@ -53,3 +53,18 @@ ul {
     background-image: linear-gradient(to right,#879A9E,#4AC2DD);
     opacity: 0.5; 
 }
+
+@media screen and (max-width: 500px) {
+    .text {
+        height: 400px;
+    }
+    .institutions .content {
+        text-align: center;
+        width: 50%;
+        display: inline-block;
+        padding: 20px;
+        width: 100%;
+        color: #FFFFFF;
+    }
+}
+

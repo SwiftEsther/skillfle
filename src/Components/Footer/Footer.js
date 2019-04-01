@@ -9,7 +9,7 @@ const Footer = () => (
         <div className="row">
             <div className="col span_1_of_3">
             <img className="widget-title" src={logo} alt='logo of skillfle'/>
-                <p>Coursera provides universal access to the world’s best education, partnering with top universities and organizations to offer courses online.</p>
+            <p>Skillfle provides universal access to the world’s best education, partnering with top universities and organizations to offer courses online.</p>
             </div>
             <div className="col span_1_of_3 links">
                 <h3 className="widget-title">SKILLFLE</h3>
