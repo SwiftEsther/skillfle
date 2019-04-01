@@ -1,22 +1,35 @@
 /******************STEPS*******************/
 .section-steps {
     background-color: #f4f4f4;
+    padding:40px;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(../../assets/tab.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../../assets/tab.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #f4f4f4;
 }
 
-.iPhone {
+.col.span_1_of_2.steps-box {
+    width: 60%;
+}
+
+/* .iPhone {
     text-align: right;
     padding-right: 3%;
     margin-top: 30px; 
-}
+} */
 
 .steps-box {
     margin-top: 70px;
     padding-left: 3%;
+    width: 60%;
+    float: right;
+    padding: 40px;
 }
 
-.app-screen {
+/* .app-screen {
     width: 40%;
-}
+} */
 
 .works-steps {
     margin-bottom: 50px;
@@ -49,14 +62,24 @@
     float: right;
     margin-left: 80px;
     margin-bottom: 40px;
+    text-align: justify;
+    color: #f4f4f4;
 }
 
-.works-steps h3{
+.works-steps h4{
     margin-bottom: 0;
+    color: #f4f4f4;
 }
 
 .app-btn img {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .steps-box {
+        width: 100%;
+        padding-left: 0;
+    }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import './Steps.css'
+import './Steps.css';
+import tab from '../../assets/tab.jpeg';
 
 const Steps = () => (
     <section class="section-steps" id="works">
@@ -7,9 +8,6 @@ const Steps = () => (
                 <h2>How it works</h2>
             </div>
             <div class="row">
-                <div class="col span_1_of_2 iPhone">
-                    <img src="./resources/img/app-iPhone.png" alt="Skillfle App on iPhone" class="app-screen js-wp-2" />
-                </div>
                 <div class="col span_1_of_2 steps-box">
                     <div class="works-steps">
                         <div>1</div>
@@ -32,7 +30,7 @@ const Steps = () => (
                         <p>Earn official recognition for your work and share success with friends, colleagues and potential employers.</p>
                     </div>
                     <div class="works-steps last">
-                        <div>3</div>
+                        <div>5</div>
                         <h4>TALENT HUNT</h4>
                         <p>Comapnies and recruiters get to select Resumes solely based on Skills and not Nepotism.</p>
                     </div>
