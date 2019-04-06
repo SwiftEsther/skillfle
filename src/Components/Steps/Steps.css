@@ -48,8 +48,8 @@
 .works-steps p {
     float: right;
     margin-left: 80px;
-    margin-bottom: 40px;
-    text-align: justify;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .works-steps h4{
