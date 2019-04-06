@@ -1,7 +1,6 @@
 .text {
     background-image: url(../../assets/woman.jpeg);
     width: auto;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
