@@ -1,9 +1,5 @@
 import React, {Fragment} from 'react';
 import Institution from './Institution/Institution';
-import unilag_logo from '../../assets/Unilag_logo.png';
-import ui_logo from '../../assets/UI_logo.png';
-import fb_logo from '../../assets/fb_logo.png';
-import ms_logo from '../../assets/microsoft_logo.png';
 import ms from '../../assets/ms.jpeg';
 import './Institutions.css';
 

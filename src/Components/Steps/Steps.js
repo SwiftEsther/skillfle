@@ -1,6 +1,5 @@
 import React from 'react';
 import './Steps.css';
-import tab from '../../assets/tab.jpeg';
 
 const Steps = () => (
     <section class="section-steps" id="works">

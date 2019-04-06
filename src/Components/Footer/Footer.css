@@ -1,11 +1,4 @@
 /****************FOOTER*****************/
-/* footer {
-    background-color: #FFFFFF;
-    padding: 20px 50px 50px 50px;
-    font-size: 80%;
-    margin: 0 50px;
-}*/
-
 p {
     margin-left: 15px;
     text-align: justify;
@@ -97,4 +90,11 @@ footer img {
 
 footer p {
     color: #888;
+}
+
+@media screen and (max-width: 500px) {
+    .links,
+    .connect {
+        padding-left: 15px;
+    }
 }

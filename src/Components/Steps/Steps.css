@@ -11,22 +11,12 @@
     width: 60%;
 }
 
-/* .iPhone {
-    text-align: right;
-    padding-right: 3%;
-    margin-top: 30px; 
-} */
-
 .steps-box {
     padding-left: 3%;
     width: 60%;
     float: right;
     padding: 40px;
 }
-
-/* .app-screen {
-    width: 40%;
-} */
 
 .works-steps {
     margin-bottom: 50px;
@@ -73,8 +63,8 @@
 }
 
 @media screen and (max-width: 500px) {
-    .steps-box {
+    .col.span_1_of_2.steps-box {
         width: 100%;
-        padding-left: 0;
+        padding: 0;
     }
 }
