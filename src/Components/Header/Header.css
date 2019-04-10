@@ -82,6 +82,60 @@ header::before{
     padding-right: 30px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        position: absolute;
+        width: auto;
+        top: 50%;
+        left: 40%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    text {
+        background-image: url(/static/media/woman.1a01b441.jpeg);
+        width: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        position: relative;
+    }
+}
+
+/* Small tablet to big tablets from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+    .hero-text-box{
+        position: absolute;
+        width: auto;
+        top: 50%;
+        left: 40%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    text {
+        background-image: url(/static/media/woman.1a01b441.jpeg);
+        width: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        position: relative;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .hero-text-box{
+        position: absolute;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
 @media screen and (max-width: 500px) {
     .header a {
         padding: 5px;
@@ -93,8 +147,12 @@ header::before{
     }
 
     .header-right{padding-right: 10px}
-
-    .hero-text-box {
+    .hero-text-box{
+        position: absolute;
         width: auto;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 }

@@ -53,6 +53,31 @@ ul {
     opacity: 0.5; 
 }
 
+@media only screen and (max-width: 1200px) {
+    .text {
+        background-image: url(/static/media/woman.1a01b441.jpeg);
+        width: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        position: relative;
+    }
+}
+
+/* Small tablet to big tablets from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+    .text {
+        background-image: url(/static/media/woman.1a01b441.jpeg);
+        width: auto;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        position: relative;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .text {
         height: 400px;

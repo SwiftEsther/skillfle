@@ -63,9 +63,24 @@
     margin-right: 10px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .step-img img {width: 100%;}
+    .step-img {margin-top: 150px;}
+}
+
+/* Small tablet to big tablets from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+    .step-img img {width: 100%}
+    .step-img {margin-top: 300px;}
+}
+
 @media screen and (max-width: 500px) {
     .col.span_1_of_2.steps-box {
         width: 100%;
         padding: 0;
+    }
+
+    .step-img {
+        display: none;
     }
 }
