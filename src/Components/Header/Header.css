@@ -21,7 +21,7 @@
 
 .hero-text-box p {
     font-size: 25px;
-    color: #929eaa;
+    color: #ffffff;
     margin-left: 0;
 }
 
@@ -45,11 +45,15 @@
 }
 
 header {
-    background-image:  url(../../assets/photo-1509869175650-a1d97972541a.jpeg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../../assets/studygroup.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+}
+
+header::before{
+    background-image: linear-gradient(to right,#333,#ffffff);
 }
 
 .header a {

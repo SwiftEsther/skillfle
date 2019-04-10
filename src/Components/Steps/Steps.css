@@ -8,12 +8,13 @@
 }
 
 .col.span_1_of_2.steps-box {
-    width: 60%;
+    margin-left: 0;
+    padding-right: 0;
+    width: 50%;
 }
 
 .steps-box {
     padding-left: 3%;
-    width: 60%;
     float: right;
     padding: 40px;
 }
