@@ -1,5 +1,6 @@
 import React from 'react';
 import './Steps.css';
+import steps from '../../assets/ipad-img.jpeg';
 
 const Steps = () => (
     <section class="section-steps" id="works">
@@ -7,6 +8,9 @@ const Steps = () => (
                 <h2>How it works</h2>
             </div>
             <div class="row">
+                <div className = "col span_1_of_2 step-img">
+                    <img src={steps} />
+                </div>
                 <div class="col span_1_of_2 steps-box">
                     <div class="works-steps">
                         <div>1</div>
@@ -21,7 +25,7 @@ const Steps = () => (
                     <div class="works-steps">
                         <div>3</div>
                         <h4>HELP AND SUPPORT</h4>
-                        <p>Connect with thousands of other learners and delete ideas, discuss course materials and get help mastering concepts.</p>
+                        <p>Connect with thousands of other learners and debate ideas, discuss course materials and get help mastering concepts.</p>
                     </div>
                     <div class="works-steps">
                         <div>4</div>
