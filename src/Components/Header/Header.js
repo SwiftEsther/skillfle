@@ -5,10 +5,10 @@ import logo from '../../assets/SKILLFLEAsset_5.png';
 
 const Header = () => (
     <header>
-        <div class="header">
-            <a href="#default" class="logo"><img src={logo} alt="Skillfle Logo" /></a>
-            <div class="header-right">
-                <a class="active" href="#about">About</a>
+        <div className="header">
+            <a href="#default" className="logo"><img src={logo} alt="Skillfle Logo" /></a>
+            <div className="header-right">
+                <a className="active" href="#about">About</a>
                 <a href="#company">Company</a>
                 <a href="#connect">Connect</a>
                 <a href="#signup">Sign Up</a>

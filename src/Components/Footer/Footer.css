@@ -13,6 +13,8 @@ p {
 
 footer {
     padding: 20px 50px;
+    margin-bottom: 30px;
+    display: -webkit-inline-box;
 }
 
 footer img {
